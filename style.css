@@ -168,12 +168,6 @@ body {
 .card:hover {
     margin-top:-1px;
     transition-duration : 1s;
-    
-}
-
-
-
-.card:hover {
     cursor : pointer;
     
 }
@@ -187,5 +181,21 @@ body {
     margin-right: auto;
     margin-bottom : -20px;
     margin-top : -20px;
+}
+
+.btn {
+    position : absolute;
+    display : none;
+    width : 250px;
+    background-color : rgb(118, 177, 118);
+    height : 40px;
+    margin-bottom : -15px;
+    font-family: 'Solitreo', cursive;
+    padding-top : 5px;
+}
+
+.card:hover .btn {
+    display : block;
+    border : none;
 }
 
