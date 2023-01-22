@@ -151,7 +151,7 @@ body {
     }
 
     .btn {
-        width : 270px;
+        width : 280px;
     }
 
     
@@ -172,7 +172,8 @@ body {
     }
 
     .btn {
-        width : 500px;
+        width : 282px;
+        margin-left : -16px;
     }
 
     
@@ -191,7 +192,7 @@ body {
     } 
 
     .btn {
-        width : 500px;
+        width : 212px;
     }
 }
 
