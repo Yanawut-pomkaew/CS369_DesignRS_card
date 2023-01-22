@@ -190,6 +190,7 @@ body {
 
     .card {
        width : fit-content;
+       margin-left : 20px;
     } 
 
     .btn {
