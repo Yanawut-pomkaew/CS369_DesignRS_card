@@ -44,7 +44,7 @@ body {
 
     .card {
         width : 300px;
-       
+        padding : 15px;
     }
     
     
@@ -71,7 +71,7 @@ body {
    
 }
 
-@media only screen and (max-width : 615px) {
+@media only screen and (max-width : 675px) {
     .container {
         display: grid;
         grid-template-columns: auto;
@@ -86,6 +86,83 @@ body {
     }
 
     
+}
+
+@media only screen and (max-width : 550px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;   
+        
+    }
+
+    .card {
+        width : 300px;
+        
+        margin-left : 2rem;
+    }
+
+    
+}
+
+@media only screen and (max-width : 450px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;   
+        
+    }
+
+    .card {
+        width : 250px;
+        
+        margin-left : 2rem;
+    }
+
+    
+}
+
+@media only screen and (max-width : 385px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;   
+     
+    }
+
+    .card {
+        
+        
+       margin-left : -3%;
+    }
+
+    
+}
+
+@media only screen and (max-width : 300px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;   
+     
+    }
+
+    .card {
+       width : fit-content;
+    } 
+}
+
+@media only screen and (max-width : 279px) {
+    .container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;   
+     
+    }
+
+    .card {
+       display : none;
+    } 
 }
 
 .card:hover {
