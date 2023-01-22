@@ -169,7 +169,7 @@ body {
     .card {
         
         
-       margin-left : -2%;
+       margin-left : 0.5%;
     }
 
     .btn {
@@ -190,7 +190,7 @@ body {
 
     .card {
        width : fit-content;
-       margin-left : 20px;
+       
     } 
 
     .btn {
