@@ -33,6 +33,22 @@ body {
     }
 }
 
+.btn {
+    position : absolute;
+    display : none;
+    width : 250px;
+    background-color : rgb(118, 177, 118);
+    height : 40px;
+    margin-bottom : -15px;
+    font-family: 'Solitreo', cursive;
+    padding-top : 5px;
+}
+
+.card:hover .btn {
+    display : block;
+    border : none;
+}
+
 @media only screen and (max-width : 875px) {
     .container {
         display: grid;
@@ -43,8 +59,14 @@ body {
     }
 
     .card {
+
         width : 300px;
         padding : 15px;
+    }
+
+    .btn {
+        width : 281px;
+        margin-left : -15px;
     }
     
     
@@ -80,9 +102,14 @@ body {
     }
 
     .card {
+
         width : 400px;
         
         margin-left : 2rem;
+    }
+
+    .btn {
+        width : 430px;
     }
 
     
@@ -101,6 +128,10 @@ body {
         
         margin-left : 2rem;
     }
+    
+    .btn {
+        width : 330px;
+    }
 
     
 }
@@ -117,6 +148,10 @@ body {
         width : 250px;
         
         margin-left : 2rem;
+    }
+
+    .btn {
+        width : 270px;
     }
 
     
@@ -183,19 +218,4 @@ body {
     margin-top : -20px;
 }
 
-.btn {
-    position : absolute;
-    display : none;
-    width : 250px;
-    background-color : rgb(118, 177, 118);
-    height : 40px;
-    margin-bottom : -15px;
-    font-family: 'Solitreo', cursive;
-    padding-top : 5px;
-}
-
-.card:hover .btn {
-    display : block;
-    border : none;
-}
 
