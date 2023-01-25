@@ -6,7 +6,7 @@ body {
 }
 
 .des {
-    
+    color: rgb(130, 130, 130);
     font-weight : 100;
     padding-top : 15px;
 }
@@ -18,7 +18,7 @@ body {
     grid-template-columns: auto auto auto auto;
     padding: 10px;
     margin-top : 20px;
-    margin-left : 40px;
+    margin : 40px;
 
     
 }
@@ -37,18 +37,20 @@ body {
     position : absolute;
     display : none;
     width : 250px;
-    background-color : rgb(118, 177, 118);
+    background-color : rgb(98, 193, 98);
     height : 40px;
     margin-bottom : -15px;
     font-family: 'Solitreo', cursive;
     padding-top : 5px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.763);
 }
 
 .card:hover .btn {
     display : block;
     border : none;
+    cursor : pointer;
 }
 
 @media only screen and (max-width : 875px) {
@@ -56,8 +58,7 @@ body {
         display: grid;
         grid-template-columns: auto auto;
         padding: 10px;
-        
-        
+    
     }
 
     .card {
@@ -85,7 +86,7 @@ body {
 
 .card {
     background-color : white;
-    margin : 10px;
+    margin : auto;
     margin-bottom : 50px;
     border-radius : 4px;
     height : fit-content;
@@ -93,53 +94,10 @@ body {
     width : 250px;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.763);
     padding-bottom : 15px;
-   
+    transition-duration : 1s;
 }
 
 @media only screen and (max-width : 675px) {
-    .container {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 10px;   
-       
-    }
-
-    .card {
-
-        width : 400px;
-        
-        margin-left : 2rem;
-    }
-
-    .btn {
-        width : 430px;
-    }
-
-    
-}
-
-@media only screen and (max-width : 550px) {
-    .container {
-        display: grid;
-        grid-template-columns: auto;
-        padding: 10px;   
-        
-    }
-
-    .card {
-        width : 300px;
-        
-        margin-left : 2rem;
-    }
-    
-    .btn {
-        width : 330px;
-    }
-
-    
-}
-
-@media only screen and (max-width : 450px) {
     .container {
         display: grid;
         grid-template-columns: auto;
@@ -149,8 +107,6 @@ body {
 
     .card {
         width : 250px;
-        
-        margin-left : 1rem;
     }
 
     .btn {
@@ -160,34 +116,30 @@ body {
     
 }
 
-@media only screen and (max-width : 385px) {
+@media only screen and (max-width : 360px) {
     .container {
         display: grid;
         grid-template-columns: auto;
         padding: 10px;   
-     
+        margin: 20px;
     }
 
     .card {
-        
-        
-       margin-left : 0.5%;
+        width : 250px;
     }
 
     .btn {
-        width : 282px;
-        margin-left : -16px;
+        width : 280px;
     }
-
-    
 }
+
 
 @media only screen and (max-width : 320px) {
     .container {
         display: grid;
         grid-template-columns: auto;
-        padding: 10px;   
-     
+        padding: 0px;   
+        margin: 20px;
     }
 
     .card {
@@ -196,26 +148,27 @@ body {
     } 
 
     .btn {
-        width : 212px;
+        width : 210px;
     }
 }
 
 @media only screen and (max-width : 279px) {
+
     .container {
         display: grid;
         grid-template-columns: auto;
         padding: 10px;   
      
-    }
+}
 
     .card {
        display : none;
     } 
 }
 
+
 .card:hover {
-    margin-top:-1px;
-    transition-duration : 1s;
+    margin-top:-10px;
     cursor : pointer;
     
 }
@@ -230,5 +183,4 @@ body {
     margin-bottom : -20px;
     margin-top : -20px;
 }
-
 
