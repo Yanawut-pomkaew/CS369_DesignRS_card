@@ -6,7 +6,7 @@ body {
 }
 
 .des {
-    
+    color: rgb(130, 130, 130);
     font-weight : 100;
     padding-top : 15px;
 }
@@ -37,7 +37,7 @@ body {
     position : absolute;
     display : none;
     width : 250px;
-    background-color : rgb(118, 177, 118);
+    background-color : rgb(98, 193, 98);
     height : 40px;
     margin-bottom : -15px;
     font-family: 'Solitreo', cursive;
@@ -50,6 +50,7 @@ body {
 .card:hover .btn {
     display : block;
     border : none;
+    cursor : pointer;
 }
 
 @media only screen and (max-width : 875px) {
@@ -93,7 +94,7 @@ body {
     width : 250px;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.763);
     padding-bottom : 15px;
-   
+    transition-duration : 1s;
 }
 
 @media only screen and (max-width : 675px) {
@@ -156,7 +157,7 @@ body {
         display: grid;
         grid-template-columns: auto;
         padding: 10px;   
-     
+        box-shadow: 0 5px 8px rgba(0, 0, 0, 0.763);
     }
 
     .card {
@@ -166,8 +167,7 @@ body {
 
 
 .card:hover {
-    margin-top:-1px;
-    transition-duration : 1s;
+    margin-top:-10px;
     cursor : pointer;
     
 }
